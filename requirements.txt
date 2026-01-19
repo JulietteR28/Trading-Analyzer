@@ -1,0 +1,31 @@
+# Dépendances du projet Trading Analyzer
+
+# Récupération de données boursières
+yfinance>=0.2.32
+aiohttp>=3.9.0
+
+# Manipulation de données
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Base de données
+# sqlite3 est inclus dans Python par défaut
+
+# Génération de PDF
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# Interface graphique
+streamlit>=1.28.0  # Alternative pour interface web
+
+# Programmation asynchrone
+aiohttp>=3.9.0
+asyncio  # Inclus dans Python 3.7+
+
+# Utilitaires
+python-dateutil>=2.8.0
+requests>=2.31.0
